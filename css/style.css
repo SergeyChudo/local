@@ -1,0 +1,149 @@
+body{ 
+    background: linear-gradient(to top, #7082e7, #e9e8bb);
+}
+
+/* "*" для всего документа */
+*{
+    font-family: "Montserrat", serif;
+}
+/* обращаемся к классу container */
+.container{
+    /* максимальная ширина */
+    max-width: 1360px;
+    /* ширина */
+    width: 100%;
+    /* отступы от каждого края элемента */
+    margin: auto;
+
+}
+/* что бы обратиться именно к тому классу который нам нужен 
+   если настройки одинаковые то класс можно прописать через зяпятую*/
+.header_block, .navigation, .promo_block{
+    /*  display  свойство, которое определяет, как элемент должен быть показан в документе
+        flex свойство  делает элемент flex-ым и запнимает одну строчку */
+    display: flex;
+    /*  justify-content определяет, как браузер распределяет пространство вокруг флекс-элементов вдоль главной оси контейнера 
+        space-betwee Флексы равномерно распределяются по всей строке */
+    justify-content: space-between;
+    /* Свойство align-items выравнивает флекс-элементы внутри контейнера в перпендикулярном направлении. */
+    align-items: center;
+
+}
+.header_block{
+    /* отступы для шапки */
+    margin-top: 52px;
+    margin-bottom: 116px;
+}
+    /* ширина меню */
+.navigation{
+    width: 775px;
+    margin-top: -50px;
+}
+.logo_header{
+    font-weight: 400px;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+
+}
+    /* Свойства блока навигации */
+ .link_header{
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+
+ }
+ .button_header{
+    background: #051b5e;
+    border-radius: 300px;
+    width: 250px;
+    height: 50px;
+    /* свойство рамки */
+    border: none;
+    /* настройки текста */
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    /* отступы текста внутри кнопки */
+    padding: auto; 
+
+ }
+ /* о себе */
+ .promo_desc{
+    width: 242px;
+
+ }
+    /*  свойства вложенности через ">" (для текста)*/
+.promo_desc > p{
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+}
+    /* кнопка подробнее */
+.button_promo{
+    /* отступы */
+    margin-top: 60px;
+    padding: auto;
+}
+    /* фон картинки */
+.promo_img{
+    /* что бы картинка была по центру блока */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* no-repeat - что бы картинка не повиторялась, center - выравнивание по центру,  / cover - размер картиинки */
+    background: url(/fon.png) no-repeat center / cover;
+    width: 900px;
+    height: 405px;
+    border-radius: 35px;
+
+}
+/* Изделия */
+#promo_img1{
+    margin-top: 60px;
+   
+}
+    /* копка изделие */
+.promo_production{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-decoration: none;
+}
+/* написать нам  */
+#napisat, #vk{
+    margin-top: -50px;
+}
+
+.contact{
+    display: flex;  
+    margin-top: 60px;
+    justify-content: center; 
+}
+#rejim{
+    padding: 20px;
+    justify-content: flex-end;
+    position: relative;
+    
+
+}
+#location{
+    padding: 20px;
+    justify-content: flex-end;
+    position: relative;
+   
+
+}
+#tel{
+    
+    padding: 20px;
+    justify-content: flex-end;
+    position: relative;
+    
+}
+#carouselExample{
+    
+}
+
+

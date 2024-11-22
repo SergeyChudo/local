@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- подключаем  style.css-->
+     <link rel="stylesheet" href="/css/style.css">
+     <!-- подключаем внешний шоифт -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- <header> (верхний колонтитул, шапка) задаёт «шапку» сайта или раздела веб-страницы. Блок навигации-->
+    <header class="header">
+        <!-- Блок где все контейнеры странички где "class="cotainer" это класс и имя наших контейнеров.
+         Элемент <div> (от англ. division — раздел, секция) является универсальным блочным элементом и предназначен для группирования элементов документа с целью изменения вида содержимого через стили. Для этого добавляется атрибут class или id с именем класса или -->
+            <!-- индивидуальный класс header_block -->
+        <div class="container header_block">
+        <!-- блок с логотипом -->
+             <a href="https://xn--80adiojfkg0h3c.xn--p1ai/" class="logo_header">
+                <img src="logo.svg" alt="Логотип">
+             </a>
+             <a href="https://vk.com/club.inlife43" class="vk_header" id="vk">
+                <img src="vk.svg" alt="в контакте">
+             <!-- блок с навигацией -->
+             <div class="navigation">
+                <!-- a.link_header*6 -->
+                <a href="https://xn--80adiojfkg0h3c.xn--p1ai/" class="link_header">Главная</a>
+                <a href="https://xn--80adiojfkg0h3c.xn--p1ai/projects/" class="link_header">О нас</a>
+                <a href="https://xn--80adiojfkg0h3c.xn--p1ai/%d0%b8%d0%b7%d0%b4%d0%b5%d0%bb%d0%b8%d1%8f/" class="link_header ">Изделия</a>
+                <a href="https://xn--80adiojfkg0h3c.xn--p1ai/services/" class="link_header">Услуги</a>
+                <a href="https://xn--80adiojfkg0h3c.xn--p1ai/%d0%b8%d0%bd%d0%b0%d1%8f-%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d1%8f/" class="link_header">Информация</a>
+                <a href="https://xn--80adiojfkg0h3c.xn--p1ai/contact-us/" class="link_header">Контакты</a>
+            </div>
+            <!-- кнопка написать.  с классом! -->
+            <a href="mailto:invalid-kirov@mail.ru"  class="button_header button_promo promo_production"  id="napisat">Написать нам</a>
+         </div>
+         
+    </header>
+    <!-- Блок с информацией про себя-->
+    <div class="container promo_block"> 
+        <!-- promo_desc о себе -->
+        <div class="promo_desc">
+            <p>Привет! <br>
+                Вы на страничке 
+                АНО Неваляшкин. <br> 
+                Мы работаем для Вас более 5 лет. <br>
+                Оказываем услуги социального характера.</p>
+                <a href="https://xn--80adiojfkg0h3c.xn--p1ai/projects/" class="button_header button_promo promo_production ">Подробнее</a>
+
+            </div>
+            <div class="promo_img"> 
+                <img src="foto.png" alt="общее фото">
+            </div>
+    </div>
+        <!-- Блок с кнпкой -->
+         <div class="container promo_production">
+            <a href="https://xn--80adiojfkg0h3c.xn--p1ai/%d0%b8%d0%b7%d0%b4%d0%b5%d0%bb%d0%b8%d1%8f/" class="button_header button_promo promo_production ">Изделия</a>
+         </div>
+         <!-- Блок с изделиями.  -->
+         <div class="container promo_block" id="promo_img1"> 
+            
+                    <img src="cup1.png" alt="кружка">
+                    <img src="cup2.png" alt="подставка">
+                    <img src="cup3.png" alt="молочник">
+                    <img src="cup4.png" alt="солница">
+                    <img src="cup5.png" alt="чайник">
+            
+                </div>
+        </div>
+        <footer>
+            <!-- Блок  контактами -->
+            <div class="contact">
+           
+               <p id="rejim">
+               Режим работы<br>
+               Понедельник - пятница с 8.00 до 16.00 <br>
+               Перерыв с 12.00 до 13.00 <br>
+               Суббота, воскресенье с 8.00 до 13.00   
+               </p>
+               <p id="location">
+               
+               Место нахождения <br>
+               Кировская область, город Киров  <br>улица Воровского, <br>
+                дом 79, кабинет 103
+                Кировская область, город Киров, <br>
+                Октябрьский проспект, дом 114, цокольный этаж
+                </p>
+                <p id="tel">
+                Контакты: <br>
+                invalid-kirov@mail.ru <br>
+                8 (8332) 455-200  
+                 </p>
+               </div>
+          </footer>
+        
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    
+
+
+</body>
+</html>
