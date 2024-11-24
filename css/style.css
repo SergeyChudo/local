@@ -1,5 +1,5 @@
 body{ 
-    background: linear-gradient(to top, #7082e7, #e9e8bb);
+    background: linear-gradient(to top,  #e9e8bb, #e9e8bb);
 }
 
 /* "*" для всего документа */
@@ -18,7 +18,7 @@ body{
 }
 /* что бы обратиться именно к тому классу который нам нужен 
    если настройки одинаковые то класс можно прописать через зяпятую*/
-.header_block, .navigation, .promo_block{
+.header_block, .navigation, .promo_block, .c_2024{
     /*  display  свойство, которое определяет, как элемент должен быть показан в документе
         flex свойство  делает элемент flex-ым и запнимает одну строчку */
     display: flex;
@@ -31,7 +31,7 @@ body{
 }
 .header_block{
     /* отступы для шапки */
-    margin-top: 52px;
+    margin-top: 32px;
     margin-bottom: 116px;
 }
     /* ширина меню */
@@ -122,28 +122,26 @@ body{
     justify-content: center; 
 }
 #rejim{
-    padding: 20px;
+    padding: 40px;
     justify-content: flex-end;
     position: relative;
     
 
 }
 #location{
-    padding: 20px;
+    padding: 22px;
     justify-content: flex-end;
     position: relative;
-   
 
 }
 #tel{
     
-    padding: 20px;
+    padding: 60px;
     justify-content: flex-end;
     position: relative;
+}
+.c_2024{
+    margin-left: 200px;
     
 }
-#carouselExample{
-    
-}
-
 
